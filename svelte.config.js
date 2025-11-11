@@ -15,6 +15,16 @@ const config = {
     }),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/free-plinko-game-online' : '',
+    },
+    prerender: {
+      handleHttpError: ({ path, referrer, message }) => {
+        // Ignore 404s for apple-touch-icon.png
+        if (path === '/apple-touch-icon.png') {
+          return;
+        }
+        // Otherwise throw the error
+        throw new Error(message);
+      }
     }
   },
 };
