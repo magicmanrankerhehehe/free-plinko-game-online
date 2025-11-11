@@ -1,8 +1,8 @@
-# Plinko Game Online 🎮
+# Free Plinko Game Online 🎮
 
 Experience the classic arcade thrill with our free online Plinko game! Drop discs through pegs and watch the excitement unfold.
 
-## 🎯 [Play Now](https://plinko-game-online.github.io/)
+## 🎯 [Play Now](https://free-plinko-game-online.github.io/)
 
 No download, no registration - just instant fun in your browser!
 
@@ -16,7 +16,7 @@ No download, no registration - just instant fun in your browser!
 
 ## 🎲 How to Play
 
-1. Visit [https://plinko-game-online.github.io/](https://plinko-game-online.github.io/)
+1. Visit [https://free-plinko-game-online.github.io/](https://free-plinko-game-online.github.io/)
 2. Click to drop your disc from the top
 3. Watch it bounce through the pegs
 4. Score points based on where it lands
@@ -55,4 +55,4 @@ No download, no registration - just instant fun in your browser!
 
 Enjoy playing Plinko! Share with friends for more fun.
 
-[Play Plinko Game Now](https://plinko-game-online.github.io/)
+[Play Plinko Game Now](https://free-plinko-game-online.github.io/)
