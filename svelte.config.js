@@ -9,7 +9,7 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: undefined,
+      fallback: null,
       precompress: false,
       strict: false,
     }),
@@ -18,8 +18,8 @@ const config = {
     },
     prerender: {
       handleHttpError: ({ path, referrer, message }) => {
-        // Ignore 404s for apple-touch-icon.png
-        if (path === '/apple-touch-icon.png') {
+        // Ignore 404s for favicon and icon files
+        if (path.includes('favicon') || path.includes('apple-touch-icon')) {
           return;
         }
         // Otherwise throw the error
